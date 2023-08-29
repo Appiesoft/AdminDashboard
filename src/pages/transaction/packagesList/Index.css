@@ -1,0 +1,35 @@
+.select_hover:hover{
+    background-color:black!important;
+    color: white!important;
+}
+
+.scroll_br{
+    overflow-y: scroll;
+    height: 16rem;
+}
+
+
+.bt_color_hover:hover{
+    background-color: #AABBCC!important;
+    color: white!important;
+    }
+    .table_container{
+        height: 41vh;
+    }
+    .pagination_style{
+        padding: 11px;
+        border-radius: 2rem;
+        padding-right: 15px;
+        padding-left: 15px;
+        cursor: pointer;
+    }
+    
+    .btn-hover:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    
+    .input_Style{
+        width: 4rem!important;
+        outline: none!important;
+    }

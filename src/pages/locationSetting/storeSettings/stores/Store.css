@@ -1,0 +1,26 @@
+.actionBtnIcon {
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: relative;
+}
+.actionBtnIcon:hover {
+    cursor: pointer;
+    background-color: #fdf0ee;
+}
+
+.actionBtnContent {
+    position: absolute;
+    padding: 8px 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 65px;
+    right: 30px;
+}
+
+.actionOption {
+    padding: 2px;
+}
+.actionOption:hover {
+    background-color: #fdf0ee;
+    color: #e74023;
+    cursor: pointer;
+}

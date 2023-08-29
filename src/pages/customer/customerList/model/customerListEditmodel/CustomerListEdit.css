@@ -1,0 +1,35 @@
+/* start loader  */
+.model_control {
+    height: 24rem !important;
+    border-radius: 1rem !important;
+}
+.loader_parent {
+    background: #252525;
+    z-index: 99;
+    opacity: 0.57;
+}
+.loader_parent .spinner-border {
+    width: 8rem;
+    height: 8rem;
+    border: 1.25em solid currentColor;
+    border-right-color: transparent;
+}
+
+/* end loader  */
+
+.select_hover:hover {
+    background-color: #727cf5 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.scroll_br {
+    overflow-y: scroll !important;
+    height: 8rem !important;
+}
+
+.selected_btn {
+    background-color: #727cf5 !important;
+    color: white !important;
+    cursor: pointer;
+}

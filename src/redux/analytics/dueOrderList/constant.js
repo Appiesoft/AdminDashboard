@@ -1,0 +1,11 @@
+const DueOrderActionTypes = {
+
+    // start Due Amount Report List 
+    GET_DUE_ORDER_LIST: '@@GET_DUE_ORDER_LIST',
+    DUE_ORDER_LIST_LOADING: '@@DUE_ORDER_LIST/LOADING',
+    DUE_ORDER_LIST_SUCCESS: '@@DUE_ORDER_LIST/SUCESS',
+    DUE_ORDER_LIST_RESET: '@@DUE_ORDER_LIST/RESET',
+    DUE_ORDER_LIST_ERROR: '@@DUE_ORDER_LIST/ERROR'
+
+}
+export default DueOrderActionTypes;

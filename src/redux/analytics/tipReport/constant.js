@@ -1,0 +1,10 @@
+const TipReportListActionTypes = {
+
+    // start TIP REPORT 
+    GET_TIP_REPORT_LIST: '@@GET_TIP_REPORT_LIST',
+    TIP_REPORT_LIST_LOADING: '@@TIP_REPORT_LIST/LOADING',
+    TIP_REPORT_LIST_SUCCESS: '@@TIP_REPORT_LIST/SUCESS',
+    TIP_REPORT_LIST_ERROR: '@@TIP_REPORT_LIST/ERROR'
+
+}
+export default TipReportListActionTypes;

@@ -1,0 +1,17 @@
+.pagination_style{
+    padding: 10px;
+    border-radius: 1rem;
+    padding-right: 12px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.btn-hover:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.input_Style{
+    width: 4rem!important;
+    outline: none!important;
+}

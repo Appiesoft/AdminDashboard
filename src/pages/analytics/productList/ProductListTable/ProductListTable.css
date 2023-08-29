@@ -1,0 +1,43 @@
+.pagination_style {
+    padding: 11px;
+    border-radius: 2rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.btn-hover:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.input_Style {
+    width: 4rem !important;
+    outline: none !important;
+}
+
+/* store css */
+.select_hover:hover {
+    background-color: #727cf5 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.scroll_br {
+    overflow-y: scroll;
+    height: 16rem;
+}
+
+.selected_store_btn {
+    background-color: #727cf5 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.dropdownbox {
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    transform: translate(-130px, 10px);
+    width: 12rem;
+}

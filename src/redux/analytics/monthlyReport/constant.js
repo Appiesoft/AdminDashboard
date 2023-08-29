@@ -1,0 +1,10 @@
+const MonthlyReportActionTypes = {
+
+    // start Monthly Report List 
+    GET_MONTHLY_REPORT_LIST: '@@GET_MONTHLY_REPORT_LIST',
+    MONTHLY_REPORT_LIST_LOADING: '@@MONTHLY_REPORT_LIST/LOADING',
+    MONTHLY_REPORT_LIST_SUCCESS: '@@MONTHLY_REPORT_LIST/SUCESS',
+    MONTHLY_REPORT_LIST_ERROR: '@@MONTHLY_REPORT_LIST/ERROR'
+
+}
+export default MonthlyReportActionTypes;

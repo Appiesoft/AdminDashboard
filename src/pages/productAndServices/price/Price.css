@@ -1,0 +1,32 @@
+.tabs {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+/* width */
+.tabs::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    border-radius: 2px;
+}
+
+/* Track */
+/* .tabs::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #6c757d;
+    border-radius: 2px;
+} */
+
+/* Handle */
+.tabs::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 2px;
+}
+
+.featuresbtn {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

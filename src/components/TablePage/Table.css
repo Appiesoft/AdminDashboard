@@ -1,0 +1,195 @@
+.color {
+    color: black;
+}
+.tableOption {
+    font-size: 13px;
+    font-weight: 600;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.tableOption:hover {
+    cursor: pointer;
+    border-color: #fd390e !important;
+    color: #fd390e;
+}
+
+/* table css */
+.table {
+    width: 100%;
+    position: relative;
+}
+
+.tableHead {
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.tableHeaderRow {
+    background: #f3f2f1;
+}
+
+.tableHeading {
+    height: 40px !important;
+    padding: 10px !important;
+    font-size: 15px;
+    font-weight: 700;
+    min-width: 180px;
+    white-space: pre-line;
+    display: flex;
+    align-items: center;
+    color: black !important;
+    border-bottom-width: 0px !important;
+}
+
+.tableBodyRow {
+    border-bottom: 1px solid #f2f1f2 !important;
+    padding: 0px !important;
+}
+
+.tableBodyCell {
+    padding: 5px 10px !important;
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 180px;
+    color: black;
+    white-space: pre-line;
+    align-self: center;
+    border-bottom-width: 0px !important;
+}
+
+.tableBodyRow:hover {
+    background-color: #fdf0ee;
+}
+
+.resizer {
+    display: inline-block;
+    background: lightgray;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(50%);
+    z-index: 1;
+    touch-action: none;
+    touch-action: none;
+}
+.resizer:hover,
+.resizer:active {
+    width: 5px;
+}
+.columnHiding {
+    position: absolute;
+    top: 38;
+    right: 12px;
+    cursor: pointer;
+    width: 40px;
+    margin: 0.4rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: #fd390e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropDown {
+    position: absolute;
+    top: 70px !important;
+    right: 28px;
+    padding: 1rem;
+    width: 210px;
+    border-radius: 1rem;
+    z-index: 2;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.4s ease-in-out;
+    height: 14rem;
+    overflow-y: scroll;
+}
+.dropDown::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.dropDown::-webkit-scrollbar-thumb {
+    background-color: #dadada;
+    border-radius: 2px;
+}
+
+.column_toggle {
+    display: flex;
+    justify-content: space-between;
+    cursor: grabbing;
+}
+
+.column_toggle:active {
+    z-index: 2;
+    position: relative;
+    background-color: #dbdbdb;
+    cursor: grab;
+}
+
+.table_container {
+    min-height: 20vh;
+    /* max-height: 62vh; */
+    max-height: calc(100vh - (170px + 9.9rem));
+    overflow-x: scroll;
+}
+
+.table_container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.table_container::-webkit-scrollbar-thumb {
+    background-color: #dadada;
+    border-radius: 2px;
+}
+
+.blacks {
+    color: black;
+}
+
+.form-check-input:checked {
+    background-color: #fd390e;
+    border-color: #fd390e;
+}
+
+/* actionButton */
+
+.actionButton > button {
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 9px;
+    color: black;
+    text-align: center;
+    align-self: center;
+}
+
+.dropdown-toggle::after {
+    content: none;
+    color: black;
+}
+
+.my-dropdown-item {
+    width: auto; 
+    color: black; 
+}
+
+.my-dropdown-item:hover {
+    background-color: #fdf0ee;
+}
+.dropdown-menu {
+    width: auto;
+    min-width: 120px;
+}

@@ -1,0 +1,22 @@
+.select_hover:hover {
+    background-color: #727cf5 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.scroll_br {
+    overflow-y: scroll !important;
+    height: 8rem !important;
+}
+
+.selected_btn {
+    background-color: #727cf5 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

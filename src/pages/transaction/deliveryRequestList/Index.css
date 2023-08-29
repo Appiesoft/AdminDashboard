@@ -1,0 +1,9 @@
+.select_hover:hover{
+    background-color:black!important;
+    color: white!important;
+}
+
+.scroll_br{
+    overflow-y: scroll;
+    height: 16rem;
+}

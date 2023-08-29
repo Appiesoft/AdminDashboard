@@ -1,0 +1,34 @@
+.icon {
+    font-size: 16px !important;
+}
+
+.disable {
+    color: lightgray !important;
+    background-color: white !important;
+    font-size: 16px !important;
+    border-radius: none !important;
+    padding:0px !important;
+}
+
+.pageNumber {
+    color: black;
+    font-size: 12px;
+}
+
+.pageNumber:hover {
+    padding: 1px 4px;
+    color: #fd390e;;
+    background-color: #fdf0ee;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.currentPage {
+    padding: 1px 4px;
+    color: #e74023;
+    background-color: #fdf0ee;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}

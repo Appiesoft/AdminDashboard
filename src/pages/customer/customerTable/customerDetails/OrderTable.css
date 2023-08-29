@@ -1,0 +1,140 @@
+.table {
+    width: 100%;
+    /* margin-bottom: -1.5rem; */
+    /* border: #f3f2f1 !important; */
+    position: relative;
+}
+
+.tableHead {
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.tableHeaderRow {
+    background: #f3f2f1;
+}
+
+.tableHeading {
+    height: 40px !important;
+    padding: 10px !important;
+    /* background: #f3f2f1; */
+    font-size: 15px;
+    min-width: 180px;
+    white-space: pre-line;
+    display: flex;
+    align-items: center;
+    color: black !important;
+}
+
+.tableBodyRow {
+    padding: 10px !important;
+    font-size: 13px;
+    min-width: 180px;
+    white-space: pre-line;
+    align-self: center;
+}
+
+tbody tr:hover {
+    background-color: #fdf0ee;
+}
+
+.resizer {
+    display: inline-block;
+    background: black;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(50%);
+    z-index: 1;
+    touch-action: none;
+}
+
+.columnHiding {
+    position: absolute;
+    top: 38;
+    right: 12px;
+    cursor: pointer;
+    width: 40px;
+    margin: 0.4rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: #e74023;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropDown {
+    position: absolute;
+    top: 50px !important;
+    right: 28px;
+    padding: 1rem;
+    width: 210px;
+    border-radius: 1rem;
+    z-index: 2;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.4s ease-in-out;
+    height: 14rem;
+    overflow-y: scroll;
+}
+.dropDown::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.dropDown::-webkit-scrollbar-thumb {
+    background-color: #dadada;
+    border-radius: 2px;
+}
+
+.column_toggle {
+    display: flex;
+    justify-content: space-between;
+    cursor: grabbing;
+}
+
+.column_toggle:active {
+    z-index: 2;
+    position: relative;
+    background-color: #dbdbdb;
+    cursor: grab;
+}
+
+.table_container {
+    min-height: 20vh;
+    max-height: 62vh;
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+    /* margin-bottom: 20px; */
+}
+
+.table_container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.table_container::-webkit-scrollbar-thumb {
+    background-color: #dadada;
+    border-radius: 2px;
+}
+
+/* .table_container::-webkit-scrollbar-track { */
+/* background-color: rgba(0, 0, 0, 0.1); */
+/* } */
+
+.blacks {
+    color: black;
+}
+
+.form-check-input:checked {
+    background-color: #e74023;
+    border-color: #e74023;
+}

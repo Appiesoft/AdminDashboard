@@ -1,0 +1,24 @@
+.select_hover:hover {
+    background-color: black !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.scroll_br {
+    overflow-y: scroll;
+    height: 16rem;
+}
+
+.selected_store_btn {
+    background-color: black !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.dropdownbox {
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    transform: translate(-130px, 10px);
+    width: 12rem;
+}

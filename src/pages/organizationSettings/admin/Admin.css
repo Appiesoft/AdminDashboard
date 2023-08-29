@@ -1,0 +1,27 @@
+.available{
+    cursor: pointer; 
+}
+.available:hover {
+    color: #e74023;
+    cursor: pointer;
+    background-color: #fdf0ee ;
+
+}
+.actionBtnContent {
+    position: absolute;
+    padding: 8px 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 50px;
+    right: 20px;
+    background-color: white;
+}
+
+.actionOption {
+    padding: 2px;
+}
+.actionOption:hover {
+    background-color: #fdf0ee;
+    color: #e74023;
+    cursor: pointer;
+}
+
